@@ -98,20 +98,20 @@ python-versions = "*"
 
 [[package]]
 name = "environs"
-version = "8.1.0"
+version = "9.3.5"
 description = "simplified environment variable parsing"
 category = "main"
 optional = false
-python-versions = ">=3.5.3"
+python-versions = ">=3.6"
 
 [package.dependencies]
-marshmallow = ">=2.7.0"
+marshmallow = ">=3.0.0"
 python-dotenv = "*"
 
 [package.extras]
-dev = ["pytest", "dj-database-url", "dj-email-url", "django-cache-url", "flake8 (==3.8.4)", "flake8-bugbear (==20.1.4)", "mypy (==0.790)", "pre-commit (>=2.4,<3.0)", "tox"]
+dev = ["pytest", "dj-database-url", "dj-email-url", "django-cache-url", "flake8 (==4.0.1)", "flake8-bugbear (==21.9.2)", "mypy (==0.910)", "pre-commit (>=2.4,<3.0)", "tox"]
 django = ["dj-database-url", "dj-email-url", "django-cache-url"]
-lint = ["flake8 (==3.8.4)", "flake8-bugbear (==20.1.4)", "mypy (==0.790)", "pre-commit (>=2.4,<3.0)"]
+lint = ["flake8 (==4.0.1)", "flake8-bugbear (==21.9.2)", "mypy (==0.910)", "pre-commit (>=2.4,<3.0)"]
 tests = ["pytest", "dj-database-url", "dj-email-url", "django-cache-url"]
 
 [[package]]
@@ -615,7 +615,7 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "302bffa70064e05edceb8964ef18c55d22115414148cfeacb2d326947c2ab8d5"
+content-hash = "c8e55aa3c9356e6b77377a3edfdb46feb98192ef28a35cef799570a5c26ae57a"
 
 [metadata.files]
 aiofiles = [
@@ -716,8 +716,8 @@ cssmin = [
     {file = "cssmin-0.2.0.tar.gz", hash = "sha256:e012f0cc8401efcf2620332339011564738ae32be8c84b2e43ce8beaec1067b6"},
 ]
 environs = [
-    {file = "environs-8.1.0-py2.py3-none-any.whl", hash = "sha256:66859e95bbfa98cb80eea388ef6ddd9a6766573dc1e6df86fb43d8e63e6e9d44"},
-    {file = "environs-8.1.0.tar.gz", hash = "sha256:61a0f7a95c68aaf66a9b1dd3f12bb33209c09bf594ff43cb1bfbe98b02f931ff"},
+    {file = "environs-9.3.5-py2.py3-none-any.whl", hash = "sha256:f5a3ca00afd32a82e098597c7dc8899bea5ed451d31055e518e8c7681cdf1c2b"},
+    {file = "environs-9.3.5.tar.gz", hash = "sha256:47128992b854cf7e279e62127100767d765a1ead8d22f355e63c00661550131b"},
 ]
 feedgen = [
     {file = "feedgen-0.9.0.tar.gz", hash = "sha256:8e811bdbbed6570034950db23a4388453628a70e689a6e8303ccec430f5a804a"},
